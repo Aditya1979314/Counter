@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-head{
+    font-size: 59px;
+    color: #364fc7;
+}
+
+.value{
+    font-size: 50px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+ .buttons button{
+    padding: 8px 24px;
+    background-color:#dee2e6;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+ .buttons button:hover{
+    background-color: #495057;
+    color: white;
+}
